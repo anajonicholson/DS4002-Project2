@@ -39,6 +39,6 @@ Alternatively, this can be run locally in any IDE (Visual Studio Code, IntelliJ,
 
 1. Download the analysis.ipynb from the SCRIPTS folder.
 2. Open analysis.ipynb in the IDE of choice. 
-3. Run the notebook. In VS Code, there is a "Run All" button that appears in the top row of the tab where the notebook opens. The first 'pip' command listed in the notebook should download all dependencies automatically (with permission given to the kernel if there is a pop-up window), but if not, open a new terminal by clicking the three dots in the top window > Terminal > New Terminal, and type in the recommended 'pip' installation commands as suggested by the IDE. Any other modules that are not on a given user's local machine may be installed with the command "pip install {module_name}", which may happen with the statsmodels module.
+3. Run the notebook. In VS Code, there is a "Run All" button that appears in the top row of the tab where the notebook opens. There are multiple import statements and packages listed in the beginning of the notebook to acquire all dependencies. Any modules that are not on a given user's local machine may be installed with the command "pip install {module_name}" to resolve the error, which may happen with the statsmodels module.
 
 Both of these methods will produce all of the figures as seen in the OUTPUT folder as well as the model results in results.csv from the DATA folder. 
