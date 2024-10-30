@@ -25,14 +25,15 @@ This folder contains any materials outputted as a result of data analysis. There
 * Moving_Average_Data_By_State.png
 
 ### SCRIPTS
-- exploratory.ipynb: the Python notebook used in exploratory data analysis to briefly describe the data sets and begin cleaning.
-- healthcare_analysis.ipynb: the Python notebook that performed the data analysis, starting from cleaning the data, preprocessing it, and running the time series forecasting.
+* appendix.ipynb: the Python notebook used to prepare the relevant statistics for the Data Appendix.
+* exploratory.ipynb: the Python notebook used in exploratory data analysis to briefly describe the data sets and begin cleaning.
+* healthcare_analysis.ipynb: the Python notebook that performed the data analysis, starting from cleaning the data, preprocessing it, and running the time-series fit and modeling.
 
 ### LICENSE.md
 This is the respective license for this project.
 
 ## Reproduction Instructions
-1. Open the analysis.ipynb Python notebook from the SCRIPTS folder. This file has all of the necessary information to clean, process, and perform sentiment analysis on the original data sets. For this project, the .ipynb file may be opened in [Google Colab](https://colab.research.google.com/) using a GitHub link (File > Open Notebook > GitHub > [analysis.ipynb](https://github.com/anajonicholson/DS4002-Project2/blob/main/SCRIPTS/healthcare_analysis.ipynb)) or manually downloading and uploading the file into Google Colab. 
+1. Open the analysis.ipynb Python notebook from the SCRIPTS folder. This file has all of the necessary information to clean, process, and perform time-series fit and modeling with ARIMA on the original data sets. For this project, the .ipynb file may be opened in [Google Colab](https://colab.research.google.com/) using a GitHub link (File > Open Notebook > GitHub > [analysis.ipynb](https://github.com/anajonicholson/DS4002-Project2/blob/main/SCRIPTS/healthcare_analysis.ipynb)) or manually downloading and uploading the file into Google Colab. 
 
 Alternatively, this can be run locally in any IDE (Visual Studio Code, IntelliJ, etc.). This operates under the assumption that the user already has a version of [Python](https://www.python.org/downloads/) downloaded onto their operating system.
 
