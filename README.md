@@ -42,3 +42,7 @@ Alternatively, this can be run locally in any IDE (Visual Studio Code, IntelliJ,
 3. Run the notebook. In VS Code, there is a "Run All" button that appears in the top row of the tab where the notebook opens. There are multiple import statements and packages listed in the beginning of the notebook to acquire all dependencies. Any modules that are not on a given user's local machine may be installed with the command "pip install {module_name}" to resolve the error, which may happen with the statsmodels module.
 
 Both of these methods will produce all of the figures as seen in the OUTPUT folder as well as the model results in results.csv from the DATA folder. 
+
+## References
+[Healthcare Costs & Medicaid Enrollment](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet#:~:text=Historical%20NHE%2C%202022%3A&text=Private%20health%20insurance%20spending%20grew,11%20percent%20of%20total%20NHE)
+[State populations](https://www2.census.gov/programs-surveys/popest/datasets/)
