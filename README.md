@@ -1,4 +1,5 @@
-# DS4002-Project2
+# Analysis of Medicaid Enrollment on the Cost of Healthcare
+## Kayla Nguyen, Anastasia Nicholson, & Ashley Manzanares
 This project explores the hypothesis that higher percentages of Medicaid enrollment in each state of the United States, along with the adoption of the Medicaid expansion policy, will reduce the annual personal healthcare expenses in each respective state. 
 
 ## Software & Platforms
